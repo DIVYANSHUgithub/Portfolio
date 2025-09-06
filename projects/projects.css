@@ -1,0 +1,13 @@
+body{
+    color: black;
+    font-style: italic;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(207, 178, 120);
+
+}
