@@ -19,12 +19,7 @@ function paper(){
         location.href = "./papers/papers.html";
     });
 }
-function about(){
-    addEventListener("click", function(){
-        location.href = "./about/about.html";
-    });
-}
-about();
+
 function typewriterEffect(){
     const text = "DIVYANSHU MISHRA";
     let i=0;
@@ -39,18 +34,3 @@ function typewriterEffect(){
     typeWriter();
 }
 typewriterEffect();
-function welcomeMessage(){
-    let text="Welcome to my portfolio Website!";
-    let speed=100;
-    let i=0;
-    function type(){
-        if(i<text.length){
-            document.getElementById("body").innerHTML+=text.charAt(i);
-            i++;
-            setTimeout(type,speed);
-        }
-    }
-    type();
-
-}
-welcomeMessage();
