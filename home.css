@@ -1,37 +1,50 @@
+a{
+    margin: 20px;
+}
+p{
+    color: black;
+    text-rendering: geometricPrecision;
+    font-family: cursive ,Verdana, Geneva, Tahoma;
+    font-weight:lighter;
+}
 #body{
-    text-size-adjust: 200%;
-    margin: 100px;
+    text-size-adjust: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 40px;
     display: flex;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    -webkit-text-stroke-width:20%;
+    padding: 0.2%;
     
     background-color: rgb(207, 178, 120);
     display: grid;
     background-position: center;
-    ::backdrop{
-        background-color: rgba(0,0,0,0.4);
-    }
     
+}
+#mainBody{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 #slides{
     
     padding: 10px;
-    position: fixed;
+    height: 100%;;
     top: 0;
-    width: 100%;
     display: flex;
     align-items: end;
-    
-    
-    
-}
-#header{
-    align-items: start;
-    text-align: center;
-    height: 50px;
 }
 #content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     content: normal;
     width: 100%;
     height: 100%;
@@ -40,31 +53,8 @@
     align-items: center;
     animation: step-start 1s forwards;
 }
-a{
-    margin: 20px;
-}
 
-#background{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-    z-index: -1;
-    align-items: center;
-    display: flex;
-    align-items: flex-start;
-}
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-    margin: 20px;
-}
+
 #heading{
     font-size: x-large; 
     color: black;
@@ -72,15 +62,11 @@ header{
       font-family: cursive ,Verdana, Geneva, Tahoma;
        font-weight: bold;
 }
-#content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 #heading2{
     color: black;
     text-rendering: geometricPrecision;
     font-family: cursive ,Verdana, Geneva, Tahoma;
     font-weight: bold;
 }
+
