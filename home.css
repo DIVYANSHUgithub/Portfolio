@@ -34,17 +34,13 @@ p{
     align-items: flex-start;
 }
 #slides{
-    
-    padding: 10px;
-    height: 100%;;
-    top: 0;
     display: flex;
     align-items: end;
 }
 #content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     content: normal;
     width: 100%;
     height: 100%;
@@ -54,11 +50,17 @@ p{
     animation: step-start 1s forwards;
 }
 
+#About{
+    display:flex;
+    flex-direction: column;
+
+}
+
 
 #heading{
     font-size: x-large; 
     color: black;
-     text-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
       font-family: cursive ,Verdana, Geneva, Tahoma;
        font-weight: bold;
 }

@@ -34,3 +34,4 @@ function typewriterEffect(){
     typeWriter();
 }
 typewriterEffect();
+
