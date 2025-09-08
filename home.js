@@ -21,11 +21,15 @@ function paper(){
 }
 
 function typewriterEffect(){
-    const text = "DIVYANSHU MISHRA";
+    
+    document.getElementById("typewriter").style.fontFamily='cursive';
+    const text="Divyanshu Mishra";
+
     let i=0;
     const speed=120;
     function typeWriter() {
         if (i < text.length) {
+            
             document.getElementById("typewriter").innerHTML += text.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
